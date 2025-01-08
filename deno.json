@@ -1,9 +1,11 @@
 {
   "name": "@hk/jsr-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "exports": {
-    "./hey-api-client": "./src/hey-api-client/index.ts"
+    ".": "./src/ts-client/index.ts",
+    "./hey-api-client": "./src/hey-api-client/index.ts",
+    "./zod-client": "./src/zod-client.ts"
   },
   "tasks": {
     "generate": "deno -A gen.ts",
@@ -12,6 +14,11 @@
   "imports": {
     "@hey-api/client-fetch": "jsr:@hey-api/client-fetch@^0.3.1",
     "@hey-api/openapi-ts": "jsr:@hey-api/openapi-ts@^0.53.2",
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "@zodios/core": "npm:@zodios/core@^10.9.6",
+    "openapi-fetch": "npm:openapi-fetch@^0.13.4",
+    "openapi-typescript-helpers": "npm:openapi-typescript-helpers@^0.0.15",
+    "openapi-zod-client": "npm:openapi-zod-client@^1.18.2",
+    "zod": "npm:zod@^3.24.1"
   }
 }

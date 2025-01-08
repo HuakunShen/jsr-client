@@ -9,3 +9,9 @@ npx @hey-api/openapi-ts \
   -i ./openapi.yml \
   -o src/client
 ```
+
+## zod client generation
+
+```bash
+deno run -A npm:openapi-zod-client "https://api.jsr.io/.well-known/openapi" -o "./src/zod-client.ts"
+```
