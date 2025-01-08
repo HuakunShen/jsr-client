@@ -1,0 +1,10 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "./src/ts-client/index.ts",
+    "./src/zod-client.ts",
+    "./src/hey-api-client/index.ts"
+  ],
+  "out": "docs",
+  "skipErrorChecking": true
+}
