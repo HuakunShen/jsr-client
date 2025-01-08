@@ -1,6 +1,8 @@
 # JSR API Client generated from OpenAPI
 
-JSR Package: https://jsr.io/@hk/jsr-client
+**JSR Package:** https://jsr.io/@hk/jsr-client
+
+**TypeDoc:** https://huakunshen.github.io/jsr-client/
 
 ## Usage
 
