@@ -3,7 +3,7 @@
   "type": "module",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/huakunshen/jsr-client"
+    "url": "git+https://github.com/huakunshen/jsr-client.git"
   },
   "version": "0.1.5",
   "devDependencies": {
