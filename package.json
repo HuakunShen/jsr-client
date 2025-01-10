@@ -1,6 +1,10 @@
 {
   "name": "@huakunshen/jsr-client",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/huakunshen/jsr-client"
+  },
   "version": "0.1.5",
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.61.2",
