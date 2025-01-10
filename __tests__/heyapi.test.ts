@@ -1,7 +1,7 @@
 import { client, listPackageVersions } from "../src/hey-api-client/index.ts";
-import { expect } from "jsr:@std/expect";
+import { expect, test } from "bun:test";
 
-Deno.test("Get package versions", async () => {
+test("Get package versions", async () => {
   client.setConfig({
     baseUrl: "https://api.jsr.io",
   });

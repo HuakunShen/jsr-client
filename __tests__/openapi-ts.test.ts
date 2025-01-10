@@ -1,7 +1,7 @@
-import { expect } from "jsr:@std/expect";
+import { expect, test } from "bun:test";
 import { getClient } from "../src/ts-client/index.ts";
 
-Deno.test("Get package versions", async () => {
+test("Get package versions", async () => {
   const client = getClient({
     url: "https://api.jsr.io",
   });
